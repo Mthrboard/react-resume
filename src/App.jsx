@@ -1,8 +1,11 @@
-import './App.css'
+import Main from "./components/Main"
+import Sidebar from "./components/Sidebar"
 
-function App() {
+function App({resumeInfo}) {
   return (
-    <div className="App">
+    <div className="app">
+      <Main resumeInfo={resumeInfo} />
+      <Sidebar resumeInfo={resumeInfo} />
     </div>
   )
 }
