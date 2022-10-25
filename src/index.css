@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.app {
+  @apply flex container mx-auto px-8 mt-8 flex-col md:mt-16 md:flex-row font-serif text-sm max-w-screen-lg;
+}
+
+.sectionHeader {
+  @apply font-sans font-bold text-base uppercase text-summary mb-4;
+}
+
+.bulletList {
+  @apply list-disc list-inside ml-8 mb-4;
+}
