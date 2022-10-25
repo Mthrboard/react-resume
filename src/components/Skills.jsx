@@ -6,7 +6,9 @@
 
 const Skills = ({skills}) => {
   return (
-    <ul>{skills.map((skill, index) => <li key={`skill-${i}`} className="mb-4">{skill}</li>)}</ul>
+    <ul>
+      {skills.map((skill, index) => <li key={`skill-${index}`} className="mb-4">{skill}</li>)}
+    </ul>
   )
 }
 
