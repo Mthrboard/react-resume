@@ -1,7 +1,7 @@
 /**
  * Returns a styled header component with full name and job title info
  * @param {Object} contactInfo - Object containing name and job title
- * @returns
+ * @returns a React component
  */
 
 const Header = ({contactInfo}) => {
