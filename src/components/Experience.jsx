@@ -1,3 +1,6 @@
+import Job from "./Job"
+import Project from "./Project"
+
 /**
  * Returns a styled section with job experience for every job
  * @param {Object} jobs - An object containing job info
