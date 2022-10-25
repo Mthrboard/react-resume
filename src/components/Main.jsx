@@ -6,7 +6,7 @@ import Experience from "./Experience"
  * Returns a styled Main component with nested Header, Summary, and Experience
  * components
  * @param {Object} resumeInfo - An object containing all resume info
- * @returns a styled component
+ * @returns a React component
  */
 
 const Main = ({resumeInfo}) => {
