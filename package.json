@@ -9,7 +9,7 @@
     "build:vite": "vite build",
     "build:tailwind": "npx tailwindcss -i ./src/index.css -o ./src/App.css",
     "watch": "npx tailwindcss -i ./src/index.css -o ./src/App.css --watch",
-    "preview": "vite preview"
+    "preview": "npx tailwindcss -i ./src/index.css -o ./src/App.css && vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
