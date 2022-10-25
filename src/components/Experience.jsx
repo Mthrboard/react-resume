@@ -7,7 +7,6 @@
 const Experience = ({jobs}) => {
   return (
     <section className="font-serif">
-      <h4 className="sectionHeader">Work Experience</h4>
       {jobs.map((job,jobIndex) => {
           return (
             <div key={`job-${jobIndex}`}>
